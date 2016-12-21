@@ -4,7 +4,7 @@ module MyLib
   extend FFI::Library
 
   ffi_lib 'c'
-  ffi_lib 'target/release/libconst.dylib'
+  ffi_lib 'target/release/libconst.so'
 
   attach_variable :VAR, :int
 end

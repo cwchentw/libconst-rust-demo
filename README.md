@@ -1,4 +1,4 @@
-# libpoint
+# libconst
 
 A simple C shared library written in Rust and exported to C, Python and Ruby.
 
